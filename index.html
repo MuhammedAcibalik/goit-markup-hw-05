@@ -12,7 +12,26 @@
 </head>
 <body>
     <header class="header">
-        <!-- Header içeriği -->
+        <div class="container header-container">
+            <nav class="header-navigation">
+                <a href="./index.html" class="header-logo">Web<span class="header-logo-studio">Studio</span></a>
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="./index.html" class="header-menu-link current">Studio</a></li>
+                    <li class="header-menu-item"><a href="" class="header-menu-link">Portfolio</a></li>
+                    <li class="header-menu-item"><a href="" class="header-menu-link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="header-address">
+                <ul class="header-contacts">
+                    <li class="header-contacts-item">
+                        <a href="mailto:info@devstudio.com" class="header-contacts-link">info@devstudio.com</a>
+                    </li>
+                    <li class="header-contacts-item">
+                        <a href="tel:+110001111111" class="header-contacts-link">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </header>
 
     <main>
@@ -128,7 +147,7 @@
         </section>
 
         <!-- Modal Window -->
-        <div class="modal-window">
+        <div class="modal-window is-hidden" data-modal>
             <div class="modal-container">
                 <button type="button" class="modal-close">
                     <svg width="8" height="8" class="modal-close-icon">
